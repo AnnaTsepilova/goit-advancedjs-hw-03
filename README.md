@@ -32,9 +32,11 @@ https://textbook.edu.goit.global/lms-js-homework/v2/uk/assets/medias/catsearch-d
 Для використання ключа необхідно використовувати HTTP-заголовок x-api-key.
 Рекомендується використовувати axios та додати заголовок до всіх запитів.
 
+```
 import axios from "axios";
 
 axios.defaults.headers.common["x-api-key"] = "твій ключ";
+```
 
 ## Колекція порід
 
@@ -97,8 +99,9 @@ https://api.thecatapi.com/v1/breeds123. Запит отримання списк
 
 - Додай мінімальне оформлення елементів інтерфейсу.
 - Замість select.breed-select можеш використовувати будь-яку бібліотеку з
-  красивими селектом, наприклад https://slimselectjs.com/
+  красивими селектом, наприклад [slimSelectJS](https://slimselectjs.com/)
 - Замість p.loader можеш використовувати будь-яку бібліотеку з красивими
-  CSS-завантажувачами, наприклад https://cssloaders.github.io/
+  CSS-завантажувачами, наприклад [cssLoaders](https://cssloaders.github.io/)
 - Замість завантажувача p.error можеш використовувати будь-яку бібліотеку з
-  гарними сповіщеннями, наприклад iziToast
+  гарними сповіщеннями, наприклад
+  [iziToast](https://izitoast.marcelodolza.com/).

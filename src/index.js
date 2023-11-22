@@ -46,6 +46,7 @@ fetchBreeds()
     loader.classList.add('visually-hidden');
   })
   .catch(function (error) {
+    loader.classList.add('visually-hidden');
     errorMessage();
     console.log('Error message', error.message);
   });
@@ -78,6 +79,7 @@ function onBreedClick(value) {
       loader.classList.add('visually-hidden');
     })
     .catch(function (error) {
+      loader.classList.add('visually-hidden');
       errorMessage();
       console.log('Error message', error.message);
     });
